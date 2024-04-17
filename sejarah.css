@@ -1,0 +1,13 @@
+.main_img_sejarah{
+    padding-top: 55vh;
+    padding-bottom: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/history.jpg");
+}
+
+.food_one{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://fakeimg.pl/1920x1080/");
+}
