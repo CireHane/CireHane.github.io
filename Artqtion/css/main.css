@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    transition: all 0.5s;
+    font-family: "Open Sans";
+}
+
+body{
+    background-image: url(../img/pattern.jpg);
+}
+
+.bl-sm{
+    font-weight: 300;
+}
+
+.bl, b{
+    font-weight: 800;
+}
+
+.fs_lg{
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Cinzel Decorative";
+    font-weight: 900;
+}
+
+.text_white,li{
+    color: white;
+}
+
+.text_justify{
+    text-align: justify;
+}
+
+footer{
+    background-color: #213a47;
+    color: white;
+}
+
+.nav_grad{
+    background: rgb(42,94,75);
+    background: linear-gradient(0deg, rgba(42,94,75,1) 0%, rgba(11,65,37,1) 100%); 
+}
+
+.nav_img{
+    width:120px;
+    height:60px;
+}
+
+.heading_1{
+    color: white;
+    font-size: 3rem;
+}
+
+.main_img{
+    padding-top: 40vh;
+    padding-bottom: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/thumb.jpg");
+    background-color: #215e4d;
+}
+
+.bg_dark{
+    box-shadow: inset 0 0 1rem 0.1rem #091e18;
+    background-color: #133c30;
+}
+
+.bg_dropdown{
+    background-color: #215e4d !important;
+}
+
+.bg_card{
+    background-color: #aec49b !important;
+}
+
+.card_fix_h{
+    min-height: 20rem;
+    max-height: fit-content;
+}
+
+.prof_img{
+    display: flex;
+    align-items: center;
+    border: 1rem solid #d6b552;
+    border-radius: 100%;
+}
+
+.img_mirror{
+  transform: scaleX(-1);
+}
+
+::selection{
+    color: white;
+    background-color:#3399FF;
+}
+
+::-moz-selection{
+    color: white;
+    background-color:#3399FF;
+}
+
+@media screen and (max-width: 760px) {
+    .nav_img{
+        width:60px;
+        height:30px;
+    }
+    .fs_lg{
+        font-size: 2.5rem;
+    }
+    
+.main_img{
+    padding-top: 35vh;
+    padding-bottom: 25vh;
+}
+}
